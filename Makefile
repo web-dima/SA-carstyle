@@ -9,4 +9,4 @@ docker-down:
 
 boot:
 	make docker-up
-	docker exec -it docker-mysql-1 mysql -uroot -p${MYSQL_ROOT_PASSWORD} < /root/dump.sql
+	docker exec -i docker-mysql-1 sh -c "mysql -uroot -p$(MYSQL_ROOT_PASSWORD) < /root/dump.sql"
