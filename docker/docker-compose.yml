@@ -1,0 +1,54 @@
+services:
+  php:
+    build:
+      dockerfile: DockerFile
+      context: php
+    volumes:
+      - ../carstyle:/app
+      - ./php/php.ini:/etc/php/7.0/php.ini
+    environment:
+      DB_NAME: ${MYSQL_DATABASE}
+      DB_USER: ${MYSQL_USER}
+      DB_PASSWORD: ${MYSQL_PASSWORD}
+    env_file: .env
+    networks:
+      - default
+    depends_on:
+      - mysql
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx:/etc/nginx
+      - ../carstyle:/app
+    ports:
+      - 80:80
+      - 443:433
+    networks:
+      - default
+    depends_on:
+      - php
+  mysql:
+    image: mysql:5.7
+    volumes:
+      - ./mysql/my.cnf:/etc/mysql/my.cnf
+      - mysql_data:/var/lib/mysql
+      - mysql_logs:/var/log/mysql
+      - ./mysql/dump:/root/dump.sql
+    ports:
+      - 3306:3306
+    env_file: .env
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    networks:
+      - default
+
+volumes:
+  mysql_data:
+  mysql_logs:
+
+networks:
+  default:
+    driver: bridge

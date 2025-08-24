@@ -1,0 +1,15 @@
+{
+  "name": "xakki/sa-google",
+  "description": "Landing for google",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Xakki ",
+      "email": "xakki@ya.ru"
+    }
+  ],
+  "require": {
+    "cimus/ip-geo-base": "1.0.5.x-dev"
+  }
+}

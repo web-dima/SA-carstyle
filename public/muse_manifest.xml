@@ -1,0 +1,108 @@
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="carstyle.spb.ru" resolutions="1x" timestamp="1499610827124">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_______-a.css" crc="517055571" ref="artcontact:artsale:index:artprice:artjob"/>
+    <file name="artcontact.css" crc="69731163" ref="artcontact"/>
+    <file name="iefonts_artcontact.css" crc="102873879" ref="artcontact"/>
+    <file name="artsale.css" crc="4193135470" ref="artsale"/>
+    <file name="iefonts_artsale.css" crc="268858329" ref="artsale"/>
+    <file name="index.css" crc="85834825" ref="index"/>
+    <file name="iefonts_index.css" crc="77547621" ref="index"/>
+    <file name="artprice.css" crc="335125126" ref="artprice"/>
+    <file name="iefonts_artprice.css" crc="3971318331" ref="artprice"/>
+    <file name="artjob.css" crc="352952687" ref="artjob"/>
+    <file name="iefonts_artjob.css" crc="396532198" ref="artjob"/>
+  </folder>
+  <folder name="assets">
+    <file name="coolform2style.css" crc="4220602352" seo="true" mt="1492888105000"/>
+    <file name="coolform2script.js" crc="286949645" seo="true" mt="1492888106000"/>
+    <file name="myform.php" crc="4093774409" seo="true" mt="1492888107000"/>
+    <file name="config.php" crc="3779423320" seo="true" mt="1492888107000"/>
+    <file name="fake_response.php" crc="3942735239" seo="true" mt="1492888107000"/>
+    <file name="user_template.txt" crc="3860340587" seo="true" mt="1492888107000"/>
+    <file name="orders_count.txt" crc="109378062" seo="true" mt="1492888107000"/>
+    <file name="after1.jpg" crc="4024663026" seo="true" mt="1492888107000"/>
+    <file name="after2.jpg" crc="4122674351" seo="true" mt="1492888107000"/>
+    <file name="after3.jpg" crc="4172177162" seo="true" mt="1492888107000"/>
+    <file name="after4.jpg" crc="3840702561" seo="true" mt="1492888107000"/>
+    <file name="after5.jpg" crc="3843491490" seo="true" mt="1492888107000"/>
+    <file name="before.jpg" crc="85026777" seo="true" mt="1492888107000"/>
+    <file name="before1.jpg" crc="265917122" seo="true" mt="1492888107000"/>
+    <file name="before2.jpg" crc="4137093935" seo="true" mt="1492888107000"/>
+    <file name="before3.jpg" crc="398668607" seo="true" mt="1492888107000"/>
+    <file name="before4.jpg" crc="4066196706" seo="true" mt="1492888107000"/>
+    <file name="before5.jpg" crc="205499534" seo="true" mt="1492888107000"/>
+    <file name="after12.jpg" crc="405475625" seo="true" mt="1492888107000"/>
+    <file name="after13.jpg" crc="3941437111" seo="true" mt="1492888108000"/>
+    <file name="after14.jpg" crc="170975496" seo="true" mt="1492888108000"/>
+    <file name="before11.jpg" crc="274779232" seo="true" mt="1492888108000"/>
+    <file name="before12.jpg" crc="4184986756" seo="true" mt="1492888108000"/>
+    <file name="before13.jpg" crc="270615744" seo="true" mt="1492888108000"/>
+    <file name="before14.jpg" crc="3849714223" seo="true" mt="1492888108000"/>
+    <file name="admin_template.txt" crc="65607206" seo="true" mt="1492888107000"/>
+    <file name="after.jpg" crc="324874377" seo="true" mt="1492888107000"/>
+    <file name="after11.jpg" crc="141066319" seo="true" mt="1492888107000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="museutils.js" crc="163421577" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="whatinput.js" crc="86476730" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="museconfig.js" crc="168988563" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="jquery.watch.js" crc="104486786" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="webpro.js" crc="3848665353" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="musewpslideshow.js" crc="4041717617" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="36492500" ref="index"/>
+    <file name="touchswipe.js" crc="404375771" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="form_check.php" crc="158155501" ref="index"/>
+    <file name="form_throttle.php" crc="3992970984" ref="index"/>
+    <file name="form_process.php" crc="4078697226" ref="index"/>
+    <file name="form-u5109.php" crc="268533999" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="4065090679" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="require.js" crc="244322403" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="form-u6113.php" crc="4269611962" ref="artcontact"/>
+    <file name="form-u6339.php" crc="4063661880" ref="artjob"/>
+    <file name="form-u7224.php" crc="3862703420" ref="artprice"/>
+    <file name="form-u7548.php" crc="410934192" ref="artsale"/>
+  </folder>
+  <folder name="images">
+    <file name="artstyle-favicon.ico" crc="26040345" ref="index"/>
+    <file name="noise_pattern_with_crosslines.jpg" crc="4170591870" ref="index"/>
+    <file name="logo.png" crc="4078576541" seo="true" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="fontawesome_f041(1)_24.png" crc="3605188" seo="true" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="fontawesome_f095(5)_24.png" crc="3960394995" seo="true" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="fontawesome_f0e0(4)_24.png" crc="4139006919" seo="true" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="без имени-1333.png" crc="3840206406" seo="true" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="5555444.jpg" crc="4072626818" seo="true" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="666666.jpg" crc="164837749" seo="true" ref="index"/>
+    <file name="777.jpg" crc="86669010" seo="true" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="crossword.jpg" crc="4248984253" ref="index:artcontact:artjob:artsale"/>
+    <file name="entypo_e7a2(4)_48.png" crc="231450522" seo="true" ref="index"/>
+    <file name="material icons_e52d(2)_48.png" crc="4102055441" seo="true" ref="index"/>
+    <file name="octicons_f031(0)_48.png" crc="221496265" seo="true" ref="index"/>
+    <file name="material icons_e531(3)_48.png" crc="250807031" seo="true" ref="index"/>
+    <file name="closed.png" crc="4043838524" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="start-block.jpg" crc="4125427158" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="linecons_e029(2)_48.png" crc="3947292101" seo="true" ref="index:artcontact:artjob:artprice:artsale"/>
+    <file name="fontawesome_f0e0(4)_242.png" crc="4139006919" seo="true" ref="artcontact"/>
+    <file name="fontawesome_f073(2)_24.png" crc="458418266" seo="true" ref="artcontact"/>
+    <file name="fontawesome_f06a(0)_24.png" crc="373164152" seo="true" ref="artcontact"/>
+    <file name="паттернsa2-u6259-fr-u6259-fr.png" crc="149636017" ref="artjob"/>
+    <file name="qq.jpg" crc="21101060" ref="artprice"/>
+    <file name="787878.png" crc="321342358" seo="true" ref="artprice"/>
+    <file name="66655.png" crc="4028572977" seo="true" ref="artprice"/>
+    <file name="9999888.png" crc="4262571110" seo="true" ref="artprice"/>
+    <file name="545453.png" crc="160470674" seo="true" ref="artprice"/>
+    <file name="32084-1ууу.jpg" crc="517431931" ref="artsale"/>
+    <file name="000.jpg" crc="4039497752" ref="artsale"/>
+    <file name="99945.jpg" crc="3936057706" ref="artsale"/>
+    <file name="60286-po-remontu-toyota-picnic-1996-2001.jpg" crc="3868583785" ref="artsale"/>
+  </folder>
+  <file name="index.html" crc="207785953" seo="true" mt="1493364945353" redirect="true"/>
+  <file name="artcontact.html" crc="525441784" seo="true" mt="1493364945353" redirect="true"/>
+  <file name="artjob.html" crc="4282031447" seo="true" mt="1493364945353" redirect="true"/>
+  <file name="artprice.html" crc="3939374485" seo="true" mt="1493623798036" redirect="true"/>
+  <file name="artsale.html" crc="147316334" seo="true" mt="1493364945353" redirect="true"/>
+</manifest>
