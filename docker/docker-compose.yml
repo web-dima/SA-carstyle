@@ -33,7 +33,7 @@ services:
       - ./mysql/my.cnf:/etc/mysql/my.cnf
       - mysql_data:/var/lib/mysql
       - mysql_logs:/var/log/mysql
-      - ./mysql/dump:/root/dump.sql
+      - ./mysql/dump.sql:/root/dump.sql
     ports:
       - 3306:3306
     env_file: .env
